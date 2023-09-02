@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Set the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configure the viewport for responsive design -->
+    <title>Chat app</title> <!-- Set the title of the webpage -->
+    <link rel="icon" href="chat.png" type="png"> <!-- Set the website's icon in the browser tab -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> <!-- Import the Socket.IO library with deferred loading -->
+    <script defer src="js\client.js"></script> <!-- Import the client-side JavaScript code with deferred loading -->
+    <audio preload="auto" src="ping.mp3"></audio> <!-- Preload an audio file for notifications -->
+    <link rel="stylesheet" href="CSS\style.css"> <!-- Import the CSS styles for the webpage -->
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="icon" style="border-radius:5px;">
+        <!-- Display the website logo with rounded corners -->
+        <h1>PING </h1> <!-- Display the website title -->
+    </nav>
+    <div class="container"> <!-- Create a container for displaying chat messages -->
+
+    </div>
+    <div class="send"> <!-- Create a section for sending messages -->
+        <form action="#" id="send-container">
+            <!-- Create a form for sending messages -->
+            <input type="text" name="messageinp" id="messageinp" placeholder="Type a message" autocomplete="off">
+            <!-- Create an input field for typing messages with a placeholder -->
+            <button class="btn" type="submit">Send</button> <!-- Create a send button -->
+        </form>
+    </div>
+</body>
+
+</html>
