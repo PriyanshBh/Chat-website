@@ -28,6 +28,18 @@ Chit Chat is a feature-rich real-time chat application designed for seamless com
 
 6. Enter your desired username to join the chat.
 
+## Project Structure
+
+- `index.html`: The main HTML file for the chat application.
+  
+- `index.js`: The Node.js server file responsible for handling socket.io connections.
+
+- `js/client.js`: The client-side JavaScript file responsible for managing chat functionality.
+
+- `ping.mp3`: Notification sound file for incoming messages.
+
+- `CSS/style.css`: Cascading Style Sheets (CSS) file for styling the application.
+
 ## Usage
 
 - Type your message in the input field at the bottom of the chat window and press "Send."
@@ -48,4 +60,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Special thanks to the Socket.IO community for their real-time communication library.
 
+
 ---
+
